@@ -1,5 +1,7 @@
 ### Additional  files ###
 data/*/*.json
+.idea/
+**/.DS_Store
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
