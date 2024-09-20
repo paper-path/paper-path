@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "paper-path"
+version = "0.1.0"
+description = ""
+authors = ["Gooogr <gusarovga@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^7.2.2"
+pandas = "^2.2.2"
+ijson = "^3.3.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
